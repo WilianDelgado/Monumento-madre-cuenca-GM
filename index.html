@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#123d35">
+  <meta name="description" content="Reseña histórica del Monumento a la Madre y del Parque de la Madre de Cuenca, Ecuador. Proyecto educativo de la Unidad Educativa Guillermo Mensi.">
+  <title>Monumento a la Madre | Cuenca, Ecuador</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Inicio">
+      <span class="brand-mark" aria-hidden="true">CM</span>
+      <span><strong>Cuenca: memoria viva</strong><small>Historia, cultura y patrimonio</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Abrir menú">☰</button>
+    <nav id="mainNav" class="nav">
+      <a href="#historia">Historia</a>
+      <a href="#significado">Significado</a>
+      <a href="#galeria">Galería</a>
+      <a href="#colegio">Institución creadora</a>
+      <a href="#auspiciantes">Auspiciantes</a>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" id="inicio">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <div class="school-kicker"><span>PROYECTO EDUCATIVO</span><strong>COLEGIO GUILLERMO MENSI</strong><span>PRESENTA</span></div>
+        <p class="eyebrow">Patrimonio y memoria de Cuenca</p>
+        <h1>Monumento<br><em>a la Madre</em></h1>
+        <p class="hero-lead">Un homenaje a la maternidad, al cuidado y al amor que forman parte de la memoria de la ciudad.</p>
+        <a class="primary-link" href="#historia">Descubre su historia <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-note"><span class="dot"></span> Parque de la Madre · Cuenca, Ecuador</div>
+    </section>
+
+    <section class="intro section-wrap">
+      <div class="intro-label">Un lugar para recordar</div>
+      <div>
+        <h2>Más que un parque, un símbolo de afecto y comunidad.</h2>
+        <p>El Parque de la Madre es uno de los espacios públicos tradicionales de Cuenca. Su monumento central recuerda la importancia de las madres y de las personas que cuidan, acompañan y protegen a sus familias.</p>
+      </div>
+    </section>
+
+    <section class="history section-wrap" id="historia">
+      <div class="section-heading">
+        <p class="eyebrow dark">Una historia que permanece</p>
+        <h2>Breve reseña histórica</h2>
+        <p>Del antiguo Parque del Ejército a uno de los espacios más reconocidos de la ciudad.</p>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <span class="timeline-year">1920</span>
+          <div><h3>Los primeros años</h3><p>El espacio comenzó a configurarse como el Parque del Ejército, en el sector de El Ejido. Con el tiempo se convirtió en un lugar de paseo y recreación para los habitantes de Cuenca.</p></div>
+        </article>
+        <article class="timeline-item">
+          <span class="timeline-year">26 JUN 1966</span>
+          <div><h3>Se inaugura el monumento</h3><p>El Club Rotario de Cuenca entregó a la ciudad el monumento dedicado a la Madre Cuencana. La obra fue realizada por el escultor Paúl Palacio y representa a una madre en actitud protectora junto a sus hijos.</p></div>
+        </article>
+        <article class="timeline-item">
+          <span class="timeline-year">2012–2013</span>
+          <div><h3>Renovación del parque</h3><p>El parque fue remodelado para fortalecer su uso recreativo y deportivo, con mejoras en áreas verdes, caminerías, pista atlética y espacios para distintos grupos de visitantes.</p></div>
+        </article>
+        <article class="timeline-item">
+          <span class="timeline-year">2025</span>
+          <div><h3>Cuidado y conservación</h3><p>El Municipio informó sobre trabajos de mantenimiento, reparación de la pista atlética y restauración del entorno del monumento, para conservar este espacio público para la comunidad.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="meaning" id="significado">
+      <div class="meaning-image" role="img" aria-label="Imagen ilustrativa de un parque arbolado"></div>
+      <div class="meaning-copy">
+        <p class="eyebrow">¿Por qué se levantó este monumento?</p>
+        <h2>Un homenaje a la madre cuencana</h2>
+        <p>El monumento fue concebido como una expresión pública de gratitud y reconocimiento a las madres. La figura materna aparece protegiendo a sus hijos, una imagen que evoca ternura, valentía, responsabilidad y entrega.</p>
+        <p>Su valor no está solamente en la escultura: también invita a reflexionar sobre el papel de la familia, el cuidado mutuo y el respeto hacia quienes acompañan nuestro crecimiento.</p>
+        <blockquote>“Recordar a una madre es reconocer una de las formas más profundas del cuidado humano.”</blockquote>
+      </div>
+    </section>
+
+    <section class="gallery section-wrap" id="galeria">
+      <div class="section-heading gallery-heading">
+        <p class="eyebrow dark">Imágenes del lugar</p>
+        <h2>Galería fotográfica</h2>
+        <p>Un recorrido visual por el monumento y los espacios del Parque de la Madre.</p>
+      </div>
+      <div class="carousel" aria-roledescription="carrusel" aria-label="Fotografías del Parque de la Madre">
+        <div class="carousel-track" id="carouselTrack">
+          <figure class="gallery-slide is-active" aria-hidden="false">
+            <img src="images/Monumento/imagen1.jpg" alt="Monumento a la Madre Cuencana en su plataforma restaurada" loading="lazy">
+            <figcaption><strong>Monumento a la Madre Cuencana</strong><span>La escultura es el corazón simbólico del parque.</span></figcaption>
+          </figure>
+          <figure class="gallery-slide" aria-hidden="true">
+            <img src="images/Monumento/imagen2.jpg" alt="Área circular y pista del Parque de la Madre" loading="lazy">
+            <figcaption><strong>Un espacio para la comunidad</strong><span>El parque reúne áreas para caminar, ejercitarse y compartir.</span></figcaption>
+          </figure>
+          <figure class="gallery-slide" aria-hidden="true">
+            <img src="images/Monumento/imagen3.jpg" alt="Fotografía del Monumento a la Madre de Cuenca" loading="lazy">
+            <figcaption><strong>Memoria de la ciudad</strong><span>La obra fue inaugurada el 26 de junio de 1966.</span></figcaption>
+          </figure>
+          <figure class="gallery-slide" aria-hidden="true">
+            <img src="images/Monumento/imagen4.jpg" alt="Árboles y vegetación de un parque, imagen ilustrativa" loading="lazy">
+            <figcaption><strong>Un espacio verde</strong><span>Los parques urbanos ofrecen descanso y contacto con la naturaleza.</span></figcaption>
+          </figure>
+          <figure class="gallery-slide" aria-hidden="true">
+            <img src="images/Monumento/imagen5.jpg" alt="Sendero arbolado, imagen ilustrativa de áreas verdes" loading="lazy">
+            <figcaption><strong>Encuentro y recreación</strong><span>Un lugar para compartir en familia y con la comunidad.</span></figcaption>
+          </figure>
+          <figure class="gallery-slide" aria-hidden="true">
+            <img src="images/Monumento/imagen6.jpg" alt="Naturaleza y vegetación, imagen ilustrativa" loading="lazy">
+            <figcaption><strong>Conservar nuestro entorno</strong><span>Cuidar los espacios públicos es una responsabilidad compartida.</span></figcaption>
+          </figure>
+        </div>
+        <div class="carousel-controls">
+          <button class="carousel-arrow" type="button" id="prevSlide" aria-label="Fotografía anterior">←</button>
+          <div class="carousel-dots" role="group" aria-label="Elegir fotografía">
+            <button class="carousel-dot active" type="button" aria-label="Mostrar fotografía 1" aria-pressed="true"></button>
+            <button class="carousel-dot" type="button" aria-label="Mostrar fotografía 2" aria-pressed="false"></button>
+            <button class="carousel-dot" type="button" aria-label="Mostrar fotografía 3" aria-pressed="false"></button>
+            <button class="carousel-dot" type="button" aria-label="Mostrar fotografía 4" aria-pressed="false"></button>
+            <button class="carousel-dot" type="button" aria-label="Mostrar fotografía 5" aria-pressed="false"></button>
+            <button class="carousel-dot" type="button" aria-label="Mostrar fotografía 6" aria-pressed="false"></button>
+          </div>
+          <button class="carousel-arrow" type="button" id="nextSlide" aria-label="Fotografía siguiente">→</button>
+        </div>
+        <p class="gallery-credit">Las fotografías documentales se atribuyen a sus fuentes enlazadas; algunas imágenes de naturaleza son ilustrativas.</p>
+    </section>
+
+    <section class="place section-wrap">
+      <div class="place-card">
+        <div class="place-icon" aria-hidden="true">⌖</div>
+        <div>
+          <p class="eyebrow dark">¿Dónde se encuentra?</p>
+          <h2>Parque de la Madre</h2>
+          <p>En el sector de El Ejido, junto al río Tomebamba, entre las avenidas 12 de Abril y Federico Malo y la calle Florencia Astudillo.</p>
+          <a class="text-link" href="https://www.google.com/maps/search/?api=1&query=Parque+de+la+Madre+Cuenca+Ecuador" target="_blank" rel="noopener noreferrer">Ver ubicación en el mapa ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="school" id="colegio">
+      <div class="school-inner">
+        <div class="school-seal" aria-hidden="true"><span>UE</span><strong>GM</strong></div>
+        <div class="school-text">
+          <p class="eyebrow">Proyecto educativo</p>
+          <h2>Unidad Educativa<br>Guillermo Mensi</h2>
+          <p>La Unidad Educativa Guillermo Mensi, institución educativa de Cuenca, promueve mediante este recurso el aprendizaje, la investigación y la difusión del patrimonio local. Esta página busca acercar la historia del monumento a estudiantes, familias y visitantes, utilizando la tecnología como herramienta para compartir conocimientos.</p>
+          <p class="creator"><strong>Creación de la página:</strong> Unidad Educativa Guillermo Mensi<br><strong>Propósito:</strong> exposición educativa y difusión cultural mediante código QR.</p>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="sponsors section-wrap" id="auspiciantes">
+      <div class="section-heading sponsors-heading">
+        <p class="eyebrow dark">Gracias por apoyar este proyecto</p>
+        <h2>Nuestros auspiciantes</h2>
+        <p>Un espacio para reconocer a las personas, negocios e instituciones que apoyan la difusión de la historia y el patrimonio de Cuenca.</p>
+      </div>
+      <div class="sponsor-carousel" aria-roledescription="carrusel" aria-label="Galería de auspiciantes">
+        <div class="sponsor-viewport">
+          <div class="sponsor-track" id="sponsorTrack">
+            <article class="sponsor-card"><img src="images/auspiciantes/auspiciante-01.jpeg" alt="Espacio para el logotipo o fotografía del auspiciante 1"><p>Auspiciante 1</p></article>
+            <article class="sponsor-card"><img src="images/auspiciantes/auspiciante-02.jpeg" alt="Espacio para el logotipo o fotografía del auspiciante 2"><p>Auspiciante 2</p></article>
+            <article class="sponsor-card"><img src="images/auspiciantes/auspiciante-03.png" alt="Espacio para el logotipo o fotografía del auspiciante 3"><p>Auspiciante 3</p></article>
+            <article class="sponsor-card"><img src="images/auspiciantes/auspiciante-04.png" alt="Espacio para el logotipo o fotografía del auspiciante 4"><p>Auspiciante 4</p></article>
+            <article class="sponsor-card"><img src="images/auspiciantes/auspiciante-05.svg" alt="Espacio para el logotipo o fotografía del auspiciante 5"><p>Auspiciante 5</p></article>
+            <article class="sponsor-card"><img src="images/auspiciantes/auspiciante-06.svg" alt="Espacio para el logotipo o fotografía del auspiciante 6"><p>Auspiciante 6</p></article>
+          </div>
+        </div>
+        <div class="sponsor-controls">
+          <button class="sponsor-arrow" type="button" id="sponsorPrev" aria-label="Auspiciantes anteriores">←</button>
+          <span class="sponsor-status" id="sponsorStatus" aria-live="polite">Auspiciantes</span>
+          <button class="sponsor-arrow" type="button" id="sponsorNext" aria-label="Auspiciantes siguientes">→</button>
+        </div>
+      </div>
+      <p class="sponsor-note">Las tarjetas son espacios de muestra. Reemplaza las imágenes y los nombres por los de los auspiciantes confirmados antes de publicar la página.</p>
+    </section>
+
+    <section class="sources section-wrap">
+      <details>
+        <summary>Fuentes consultadas y lecturas complementarias</summary>
+        <ul>
+          <li><a href="https://cuencanos.com/fotos/detallesfotoporid.php?Id_Foto=247" target="_blank" rel="noopener noreferrer">Cuencanos.com — Monumento a la Madre: inauguración y autoría.</a></li>
+          <li><a href="https://www.cuenca.gob.ec/content/la-alcaldia-de-cuenca-con-el-valioso-aporte-de-kia-entrega-un-renovado-parque-de-la-madre" target="_blank" rel="noopener noreferrer">GAD Municipal de Cuenca — mantenimiento del Parque de la Madre (2025).</a></li>
+          <li><a href="https://rest-dspace.ucuenca.edu.ec/server/api/core/bitstreams/146e17e5-968e-43e1-a11b-77a8ab2500a0/content" target="_blank" rel="noopener noreferrer">Universidad de Cuenca — investigación sobre el Parque de la Madre.</a></li>
+        </ul>
+        <p class="source-note">La reseña se ha resumido para una exposición breve. Para uso institucional, se recomienda validar el texto final con el docente responsable.</p>
+      </details>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p><strong>Cuenca, Ecuador</strong> · Memoria, identidad y patrimonio</p>
+    <p>Recurso educativo de la Unidad Educativa Guillermo Mensi</p>
+    <a href="#inicio" class="back-top">Volver al inicio ↑</a>
+  </footer>
+</body>
+</html>

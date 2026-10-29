@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#f7f4ec"/>
+  <circle cx="400" cy="145" r="62" fill="#123d35"/>
+  <path d="M365 155 Q400 95 435 155 Q400 190 365 155Z" fill="#d9b778"/>
+  <text x="400" y="270" font-family="Arial,sans-serif" font-size="38" font-weight="700" text-anchor="middle" fill="#123d35">AUSPICIANTE 3</text>
+  <text x="400" y="315" font-family="Arial,sans-serif" font-size="22" text-anchor="middle" fill="#5e6b66">Reemplazar por su logotipo o foto</text>
+</svg>
